@@ -1,0 +1,39 @@
+{
+  "identifier" : "682756571",
+  "nonRenewingSubscriptions" : [
+
+  ],
+  "products" : [
+    {
+      "displayPrice" : "2.99",
+      "familyShareable" : true,
+      "internalID" : "68275657101",
+      "localizations" : [
+        {
+          "description" : "Unlock all 16 physics-enabled princess puzzles for girls and toddlers.",
+          "displayName" : "Unlock all puzzles",
+          "locale" : "en_US"
+        },
+        {
+          "description" : "Mở khóa toàn bộ 16 màn chơi ghép hình công chúa vật lý cho bé.",
+          "displayName" : "Mở khóa tất cả màn chơi",
+          "locale" : "vi"
+        }
+      ],
+      "productID" : "com.thasmobi.physicsPuzzle05.unlockAll",
+      "referenceName" : "Unlock all puzzles",
+      "type" : "NonConsumable"
+    }
+  ],
+  "settings" : {
+    "_applicationInternalID" : "682756571",
+    "_developerTeamID" : "THASMOBI05"
+  },
+  "subscriptionGroups" : [
+
+  ],
+  "version" : {
+    "major" : 3,
+    "minor" : 0
+  }
+}
