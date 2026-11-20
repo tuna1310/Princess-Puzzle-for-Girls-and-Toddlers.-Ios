@@ -4,7 +4,7 @@ import Foundation
 
 /// ViewModel managing the active physics puzzle session, piece snapping, persistence, and bubble-pop surprise reward.
 public final class GameplayViewModel: ObservableObject {
-    @Published public let level: PuzzleLevel
+    @Published public private(set) var level: PuzzleLevel
     @Published public private(set) var pieceStates: [PuzzlePieceRuntimeState]
     @Published public private(set) var placedPieceIDs: Set<String>
     @Published public private(set) var isCompleted: Bool

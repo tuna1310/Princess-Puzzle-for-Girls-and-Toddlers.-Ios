@@ -11,8 +11,8 @@ public enum AppScreenRoute: Equatable {
 public final class AppViewModel: ObservableObject {
     @Published public private(set) var currentRoute: AppScreenRoute = .planetWheel
     @Published public private(set) var isSoundEnabled: Bool
-    @Published public let wheelViewModel: WheelViewModel
-    @Published public let storeViewModel: StoreViewModel
+    public let wheelViewModel: WheelViewModel
+    public let storeViewModel: StoreViewModel
     @Published public private(set) var activeGameplayViewModel: GameplayViewModel?
 
     private let progressRepository: ProgressRepositoryProtocol
